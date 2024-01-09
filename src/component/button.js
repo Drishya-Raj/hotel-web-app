@@ -1,6 +1,8 @@
-const Button = ({ className, buttonText }) => {
+const Button = ({ className, buttonText, style }) => {
     return (
-        <button className={className}>{buttonText}</button>
+        <div className={style}>
+            <button className={className}>{buttonText}</button>
+        </div>
     )
 }
 export default Button;

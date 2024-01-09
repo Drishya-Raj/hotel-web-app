@@ -6,7 +6,7 @@ const Card = ({ item }) => {
     const { id, image, head, place, price, day, bed, sleep, sq } = item;
     return (
     
-          <div className="flex-col gap-6 border-2 border-neutral-400 p-2 rounded-xl mt-6" key={id}>
+          <div className="flex-col justify-center items-center gap-6 border-2 border-neutral-400 p-2 rounded-xl m-auto " key={id}>
             <img src={image} alt="rooms" className="block" />
             <div className="flex-col gap-5">
                 <h5>{head}</h5>
